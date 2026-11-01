@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "NTAN Inventory",
+    "slug": "ntan-inventory",
+    "scheme": "ntan",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F5F9FC",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ntan.inventory"
+    },
+    "android": {
+      "package": "com.ntan.inventory",
+      "adaptiveIcon": {
+        "backgroundColor": "#213767",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#213767",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow NTAN Inventory to scan barcodes and QR codes."
+        }
+      ]
+    ]
+  }
+}

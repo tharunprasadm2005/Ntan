@@ -1,0 +1,9 @@
+Full Name *,Email *,Role *,Warehouse Codes,Phone Number,Employee ID,Job Title,Department,Access Start (YYYY-MM-DD),Access End (YYYY-MM-DD)
+Marcus Vance,marcus.vance@example.com,warehouse_manager,MAIN,+1 555-0101,EMP-0101,Warehouse Operations Lead,Logistics,,
+Elena Rostova,elena.rostova@example.com,warehouse_supervisor,MAIN,+1 555-0102,EMP-0102,Floor Supervisor,Operations,,
+Devon Miller,devon.miller@example.com,inventory_controller,MAIN,+1 555-0103,EMP-0103,Cycle Count Analyst,Inventory Control,,
+Chloe Bennett,chloe.bennett@example.com,receiving_operator,RECV,+1 555-0104,EMP-0104,Inbound Receiving Associate,Receiving,,
+Liam Takahashi,liam.takahashi@example.com,order_picker,MAIN,+1 555-0105,EMP-0105,Fulfillment & Picking Associate,Fulfillment,,
+Sofia Rodriguez,sofia.rodriguez@example.com,picker_packer,MAIN,+1 555-0106,EMP-0106,Packing & Dispatch Specialist,Outbound,,
+Aiden Brooks,aiden.brooks@example.com,quality_inspector,MAIN,+1 555-0107,EMP-0107,Quality Assurance Specialist,Quality Control,,
+Grace Thornton,grace.thornton@example.com,viewer,,+1 555-0108,EMP-0108,Operations Auditor,Audit & Compliance,,

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ntan-inventory-api"
+version = "0.1.0"
+description = "NTAN Inventory backend API"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "fastapi>=0.159,<0.160",
+  "uvicorn[standard]>=0.54,<0.55",
+  "pymongo>=4.19,<4.20",
+  "pydantic-settings>=2.16,<3",
+  "PyJWT>=2.15,<3",
+  "argon2-cffi>=25.1,<26",
+  "email-validator>=2.3,<3",
+  "python-dotenv>=1.2,<2",
+  "tzdata>=2025.2",
+  "openpyxl>=3.1.5",
+  "python-multipart>=0.0.20",
+  "qrcode>=8.0,<9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.1,<10",
+  "pytest-asyncio>=1.4,<2",
+  "httpx>=0.28,<0.29",
+  "asgi-lifespan>=2.1,<3",
+  "ruff>=0.17,<0.18",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ASYNC"]
+ignore = ["B008"]

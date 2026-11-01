@@ -1,0 +1,32 @@
+sku,name,barcode,category,type,unit,tracking_mode,has_expiry,reorder_point,cost,notes,warehouse_code,zone_code,aisle_code,rack_code,shelf_code,bin_code,storage_type,preferred_location
+CHG-1001,65W USB-C GaN Fast Power Charger,890123400101,Electronics,stocked_material,EA,none,false,25.0,45.00,High efficiency dual-port GaN power adapter,WH -001,A,A01,R01,S01,B01,bin,B01
+CHG-1002,100W Desktop Fast Charging Station 4-Port,890123400102,Electronics,stocked_material,EA,none,false,20.0,68.00,Multi-device desktop charging hub with PD 3.0,WH -001,A,A01,R02,S02,B02,bin,B02
+MCU-2001,32-bit Cortex M4 Microcontroller Board,890123400201,Electronics,stocked_material,EA,none,false,50.0,12.50,High performance ARM Cortex industrial MCU board,WH -001,A,A02,R03,S01,B03,bin,B03
+MCU-2002,Dual Core Wireless IoT Gateway Module,890123400202,Electronics,stocked_material,EA,none,false,35.0,16.80,Wi-Fi & BLE 5.0 industrial embedded controller,WH -001,A,A02,R04,S02,B04,bin,B04
+MTR-3001,Precision Brushless Servo Motor 24V 200W,890123400301,Robotics,stocked_material,EA,serial,false,8.0,185.00,High-torque industrial servo with optical encoder,WH -001,A,A03,R05,S01,B05,bin,B05
+MTR-3002,Planetary Gear Stepper Motor NEMA 23 10:1,890123400302,Robotics,stocked_material,EA,serial,false,12.0,92.00,Low backlash precision reduction gear motor,WH -001,A,A03,R06,S02,B06,bin,B06
+MTR-3003,High-Speed Micro Linear Actuator 50mm Stroke,890123400303,Robotics,stocked_material,EA,serial,false,15.0,64.50,12V DC compact actuator with integrated limit switch,WH -001,A,A04,R07,S01,B07,bin,B07
+SEN-4001,Industrial LiDAR Distance Sensor Module 12m,890123400401,Sensors,stocked_material,EA,serial,false,10.0,120.00,Time-of-flight laser rangefinder with UART/CAN,WH -001,A,A04,R08,S02,B08,bin,B08
+SEN-4002,Digital Temperature & Relative Humidity Sensor,890123400402,Sensors,stocked_material,EA,none,false,100.0,4.20,Calibrated I2C humidity and temperature probe,WH -001,B,B01,R09,S01,B09,bin,B09
+SEN-4003,Ultrasonic Obstacle Detection Module IP67,890123400403,Sensors,stocked_material,EA,none,false,30.0,18.50,Weatherproof ultrasonic transceiver with horn,WH -001,B,B01,R10,S02,B10,bin,B10
+CBL-5001,Flexible Industrial Copper Cable 3-Core 2.5mm 100m,890123400501,Electrical,stocked_material,MTR,lot,false,200.0,1.85,FR-PVC insulated copper flexible cable,WH -001,B,B01,R11,S01,B11,bin,B11
+CBL-5002,High Voltage Shielded Power Cable 4-Core 4mm 50m,890123400502,Electrical,stocked_material,MTR,lot,false,150.0,3.40,XLPE insulated armored industrial power cable,WH -001,B,B02,R12,S02,B12,bin,B12
+SWG-6001,Three Phase AC Contactor 32A 230V Coil,890123400601,Electrical,stocked_material,EA,none,false,20.0,28.50,Heavy duty motor control magnetic contactor,WH -001,B,B02,R13,S01,B13,bin,B13
+SWG-6002,Miniature Circuit Breaker MCB 3-Pole C16 10kA,890123400602,Electrical,stocked_material,EA,none,false,40.0,14.20,DIN rail mounted circuit breaker,WH -001,B,B02,R14,S02,B14,bin,B14
+SWG-6003,Emergency Stop Pushbutton Switch IP65 Box,890123400603,Electrical,stocked_material,EA,none,false,25.0,11.00,Twist-to-reset mushroom emergency stop button,WH -001,B,B03,R15,S01,B15,bin,B15
+CHM-7001,Industrial Precision Solvent Degreaser 5L,890123400701,Chemicals,stocked_material,CAN,lot,true,15.0,38.50,Fast-drying machinery cleaner and degreaser,WH -001,B,B03,R16,S02,B16,bin,B16
+CHM-7002,High Temperature Bearing Grease 1kg Cartridge,890123400702,Chemicals,stocked_material,KG,lot,true,30.0,14.80,Synthetic lithium complex extreme pressure grease,WH -001,B,B03,R17,S01,B17,bin,B17
+CHM-7003,Structural Epoxy Adhesive 2-Part 500ml Set,890123400703,Chemicals,stocked_material,SET,lot,true,20.0,22.00,High-strength metal and composite bonding resin,WH -001,B,B04,R18,S02,B18,bin,B18
+CHM-7004,Anti-Corrosion Moisture Displacing Spray 400ml,890123400704,Chemicals,stocked_material,CAN,lot,true,50.0,6.20,Protective lubrication and rust inhibitor spray,WH -001,B,B04,R19,S01,B19,bin,B19
+FST-8001,M6 Stainless Steel Hex Socket Cap Screws Pack of 100,890123400801,Hardware,stocked_material,PK,none,false,50.0,8.50,A2-70 grade stainless steel hex drive screws,WH -001,B,B04,R20,S02,B20,bin,B20
+FST-8002,M8 High Tensile Flange Lock Nuts Pack of 100,890123400802,Hardware,stocked_material,PK,none,false,40.0,9.80,Grade 8.8 zinc plated serrated flange locking nuts,WH -001,B,B05,R21,S01,B21,bin,B21
+FST-8003,Aluminum Extrusion T-Nut Spring Ball M5 Pack of 50,890123400803,Hardware,stocked_material,PK,none,false,60.0,7.20,Roll-in spring loaded T-nuts for 2020 profiles,WH -001,B,B05,R22,S02,B22,bin,B22
+TOL-9001,Solid Carbide 4-Flute End Mill 6mm TiAlN,890123400901,Tooling,stocked_material,EA,none,false,15.0,24.00,Micro-grain carbide cutter for stainless and alloy,WH -001,C,C01,R23,S01,B23,bin,B23
+TOL-9002,Cobalt HSS Jobber Drill Bit Set 1mm-13mm (25 Pcs),890123400902,Tooling,stocked_material,SET,none,false,10.0,52.00,Heavy duty M35 5% cobalt steel metal drill bit kit,WH -001,C,C01,R24,S02,B24,bin,B24
+TOL-9003,Precision Digital Vernier Caliper 150mm Stainless,890123400903,Tooling,stocked_material,EA,serial,false,8.0,36.00,High accuracy 0.01mm resolution digital caliper,WH -001,C,C02,R25,S01,B25,bin,B25
+PPE-1001,Industrial Safety Helmet with Ratchet Suspension,890123401001,Safety,stocked_material,EA,none,false,30.0,7.50,High impact ABS vented hard hat EN397 compliant,WH -001,E,E01,R26,S02,B26,bin,B26
+PPE-1002,Nitrile Coated Work Safety Gloves (10 Pairs Pack),890123401002,Safety,stocked_material,PK,none,false,40.0,12.00,Abrasion resistant micro-foam grip gloves,WH -001,E,E01,R27,S01,B27,bin,B27
+PPE-1003,Anti-Scratch Polycarbonate Eye Protection Goggles,890123401003,Safety,stocked_material,EA,none,false,50.0,3.80,UV400 rated wrap-around safety glasses,WH -001,E,E02,R28,S02,B28,bin,B28
+PKG-1101,Heavy Duty Corrugated Shipping Box 400x300x250mm,890123401101,Packaging,stocked_material,EA,none,false,200.0,1.10,3-ply kraft paper shipping carton with flaps,WH -001,F,F01,R29,S01,B29,bin,B29
+PKG-1102,Self-Adhesive Packing Sealing Tape 48mm x 65m Roll,890123401102,Packaging,stocked_material,ROLL,none,false,100.0,0.95,High tack BOPP transparent box sealing carton tape,WH -001,F,F01,R30,S02,B30,bin,B30
+PKG-1103,Air Bubble Protective Cushioning Roll 1m x 50m,890123401103,Packaging,stocked_material,ROLL,none,false,25.0,14.50,Dual-layer low-density polyethylene wrap,WH -001,F,F02,R31,S01,B31,bin,B31

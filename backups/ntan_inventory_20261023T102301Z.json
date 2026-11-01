@@ -1,0 +1,3307 @@
+{
+  "audit_events": [
+    {
+      "_id": "cfb8cb92-e3b8-40a6-b71f-6e31b6b5bcf7",
+      "action": "company.registered",
+      "actor_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48",
+      "after": {
+        "currency": "USD",
+        "name": "Connectivity Test Co"
+      },
+      "before": null,
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:31:59.792Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "reason": null,
+      "request_id": "f1a141f4-d0d6-4dad-b257-0191f9e848d3"
+    },
+    {
+      "_id": "0712aa86-ab7b-42c7-9dba-dffe1df1a70f",
+      "action": "auth.login",
+      "actor_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48",
+      "after": null,
+      "before": null,
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:32:00.062Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48",
+      "reason": null,
+      "request_id": "f8a63267-b71d-4799-aff4-49803b40683b"
+    },
+    {
+      "_id": "7c5ba4bc-1b5a-4f13-9a7a-08affb2cd973",
+      "action": "company.registered",
+      "actor_id": "2f7d4421-84b3-4f4d-b5cb-5d6db94ec605",
+      "after": {
+        "currency": "USD",
+        "name": "Emulator Test Co"
+      },
+      "before": null,
+      "company_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "created_at": {
+        "$date": "2026-10-22T07:32:26.533Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "reason": null,
+      "request_id": "47c37bcc-2c68-4750-868d-b5212a8485aa"
+    },
+    {
+      "_id": "505e958c-767c-4b6b-851e-e96bbc964366",
+      "action": "company.registered",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "currency": "USD",
+        "name": "Connectivity Check"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:39:58.686Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "reason": null,
+      "request_id": "db328f45-ff6c-42a5-a116-ca61803891c6"
+    },
+    {
+      "_id": "5f76fe4b-04bf-4eda-a3ac-f4d11ec734f2",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:50:39.976Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "22c133cf-ec30-46d1-9e04-47322ed56112"
+    },
+    {
+      "_id": "0e1bf0d1-989f-424e-bda8-b3a80a157e7a",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:39:09.623Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "954d44b0-a211-4cf5-98d1-3574cb5b76ed"
+    },
+    {
+      "_id": "fa8c4d85-c530-41f0-b21a-dc74749c657c",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:39:46.565Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "75377e92-b65d-4272-9ca8-7d4ee95bc55e"
+    },
+    {
+      "_id": "e71b448d-d86b-4012-bc4e-f7f0c26fdedc",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:43:35.119Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "eecdc3ae-eac9-4168-9f15-6cbbdf9c6d8f"
+    },
+    {
+      "_id": "bb07431c-1a10-4d3b-a8b6-bb445e088cd7",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:29:51.295Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "61683e85-4a7d-46be-82c1-271af5d2af77"
+    },
+    {
+      "_id": "d636c337-9553-4f5a-9ef5-67c809c912b5",
+      "action": "item.created",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "name": "Bearing 6204",
+        "sku": "BRG-6204"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:31:50.790Z"
+      },
+      "device_id": null,
+      "entity": "item",
+      "entity_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "reason": null,
+      "request_id": "ab818600-ab63-4810-8972-5a08e2cda23d"
+    },
+    {
+      "_id": "d9bbf27a-bb88-45ea-8570-aeb121f046bd",
+      "action": "warehouse.created",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "default_locations": [
+          "RECV",
+          "MAIN"
+        ],
+        "name": "Main Warehouse"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:34:04.547Z"
+      },
+      "device_id": null,
+      "entity": "warehouse",
+      "entity_id": "dd9486da-2342-483a-975f-9b743c309d6d",
+      "reason": null,
+      "request_id": "e81a5fd5-e5d2-4d98-9bc6-fd9f14415965"
+    },
+    {
+      "_id": "4ef1fed3-7ecc-4a1e-89b8-9062b996c02a",
+      "action": "receipt.drafted",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+        "number": "GR-20261022-943B38",
+        "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:35:14.212Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "reason": null,
+      "request_id": "af7dbd2f-9542-4632-a06d-6d1717148965"
+    },
+    {
+      "_id": "8ff6472b-390f-4810-9a15-205b8cbe889e",
+      "action": "receipt.committed",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "status": "applied"
+      },
+      "before": {
+        "status": "draft"
+      },
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "reason": null,
+      "request_id": "ae0940fe-6bdb-453a-aa55-2553e8e68a65"
+    },
+    {
+      "_id": "1f4acfe3-1fde-40b4-9f7b-a10fbab9c48c",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:47:00.373Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "e8388d02-636e-41d7-8522-079f3a990c3e"
+    },
+    {
+      "_id": "0a7093fc-284e-4b91-9468-f680a669df64",
+      "action": "invitation.created",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "email": "join-check-20261022@example.com",
+        "expires_at": "2026-10-29T09:47:00.417926+00:00",
+        "location_ids": [],
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:47:00.425Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "cdadcaa2-773d-4040-ae25-e22802fd9507",
+      "reason": null,
+      "request_id": "4aeea7b2-1d20-4d38-9b54-4258baa016c3"
+    },
+    {
+      "_id": "d8c92442-1153-4a2b-81e3-19ef093141c0",
+      "action": "membership.role_assigned",
+      "actor_id": "9c6b84cb-d7c9-40b3-b851-09af0fda8975",
+      "after": {
+        "invitation_id": "cdadcaa2-773d-4040-ae25-e22802fd9507",
+        "location_ids": [],
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:52:43.622Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "c11d129f-be25-4c32-af0d-54034be72593",
+      "reason": null,
+      "request_id": "2879d7d7-fdc2-4b34-87c6-437bf9b71e0f"
+    },
+    {
+      "_id": "174facba-e828-4e90-9cf5-d9d8341a7993",
+      "action": "invitation.accepted",
+      "actor_id": "9c6b84cb-d7c9-40b3-b851-09af0fda8975",
+      "after": {
+        "email": "join-check-20261022@example.com",
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:52:43.627Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "cdadcaa2-773d-4040-ae25-e22802fd9507",
+      "reason": null,
+      "request_id": "2879d7d7-fdc2-4b34-87c6-437bf9b71e0f"
+    },
+    {
+      "_id": "9e7835dc-9b88-444b-8c0c-faa64c02c802",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:54:40.088Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "f628b73a-3e2a-4262-9059-06463593e771"
+    },
+    {
+      "_id": "eaee1ae8-1153-49e6-8e0c-b91eb68e9c1a",
+      "action": "membership.status_changed",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "status": "inactive"
+      },
+      "before": {
+        "status": "active"
+      },
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:54:40.161Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "c11d129f-be25-4c32-af0d-54034be72593",
+      "reason": null,
+      "request_id": "d6d4ee32-c708-47af-ba1e-040e9ae1a696"
+    },
+    {
+      "_id": "8d567ef6-c07e-4f88-aed5-f3f8bc2823de",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:56:33.492Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "a3740657-bad4-42b2-ba55-9d3bd2c36e7b"
+    },
+    {
+      "_id": "4c2c995f-48a0-4648-9d65-d52fc76d72d8",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:57:25.406Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "90ba06ee-3ec6-48ca-a1da-eb72250b5c39"
+    },
+    {
+      "_id": "292c3c8e-9b43-4432-8db8-f01747700af2",
+      "action": "receipt.drafted",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+        "number": "GR-20261022-81C06D",
+        "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:57:25.529Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "reason": null,
+      "request_id": "b2eebc4e-edbd-45b7-87b6-db07f4aa1a32"
+    },
+    {
+      "_id": "27a82ffd-ef0e-4a2a-953c-759eae52e96e",
+      "action": "receipt.committed",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "status": "applied"
+      },
+      "before": {
+        "status": "draft"
+      },
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:00:01.072Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "reason": null,
+      "request_id": "2e51b6a4-01ab-41f8-b951-f6a1c38f42fc"
+    },
+    {
+      "_id": "f1932b90-6aee-4455-959c-b32547c90818",
+      "action": "auth.login",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": null,
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:10:24.799Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "reason": null,
+      "request_id": "1ca43160-6b06-44c0-8f31-4ad576e4fee5"
+    },
+    {
+      "_id": "cf70f19f-1157-429d-915b-9b4b67bd5b72",
+      "action": "receipt.drafted",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+        "number": "GR-20261022-5D5695",
+        "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+      },
+      "before": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:10:24.953Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "reason": null,
+      "request_id": "5f4c8623-d7cb-45bf-b771-bf4922c403bb"
+    },
+    {
+      "_id": "3f203f47-8d2a-4e21-8ed6-1448413c3b7b",
+      "action": "receipt.committed",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "after": {
+        "line_count": 1,
+        "status": "applied"
+      },
+      "before": {
+        "status": "draft"
+      },
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "reason": null,
+      "request_id": "525c0cfd-f972-42f8-8d37-ac7062764fa3"
+    },
+    {
+      "_id": "338f4ddd-81fa-44c2-bb08-58ecf4d2f8d7",
+      "action": "company.registered",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "currency": "USD",
+        "name": "Team Check Co"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.594Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "reason": null,
+      "request_id": "2f95d356-40b6-46f4-a2b6-bfa469e1aee6"
+    },
+    {
+      "_id": "a0a10dca-4205-46cf-a16b-c068b9c198b7",
+      "action": "membership.role_assigned",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "location_ids": [],
+        "role": "owner"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.612Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "d188a5da-c9bf-4d65-9601-a4d78a20f1b9",
+      "reason": null,
+      "request_id": "2f95d356-40b6-46f4-a2b6-bfa469e1aee6"
+    },
+    {
+      "_id": "138601cc-3d5a-4110-805f-22c026bc7be3",
+      "action": "warehouse.created",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "default_locations": [
+          "RECV",
+          "MAIN"
+        ],
+        "name": "Main Warehouse"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:46:39.453Z"
+      },
+      "device_id": null,
+      "entity": "warehouse",
+      "entity_id": "349e17f8-aa8e-4d68-936c-0050c5b97bbc",
+      "reason": null,
+      "request_id": "68dd1ecc-6b60-4cc5-afb1-db48a2bd34f0"
+    },
+    {
+      "_id": "9125a61b-a93c-4ef2-b384-710c02ff0b03",
+      "action": "invitation.created",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "email": "team-invite-20261022@example.com",
+        "expires_at": "2026-10-29T10:50:57.441267+00:00",
+        "location_ids": [
+          "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+          "09e509ba-4c8e-47b6-900f-f54470fdb77f"
+        ],
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:50:57.461Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "f7913a96-89d2-4f15-a2c3-7bd4394eee2e",
+      "reason": null,
+      "request_id": "a5dd5d34-e262-4790-8575-78842afef28a"
+    },
+    {
+      "_id": "81b3c987-23b8-478e-b735-08cb71ded3d1",
+      "action": "membership.role_assigned",
+      "actor_id": "c2be145c-1c93-4aeb-9a07-c56fe4f33728",
+      "after": {
+        "invitation_id": "f7913a96-89d2-4f15-a2c3-7bd4394eee2e",
+        "location_ids": [
+          "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+          "09e509ba-4c8e-47b6-900f-f54470fdb77f"
+        ],
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:03:39.872Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "f0e5d2df-3a42-47f1-a82b-e9aa7f16a6c8",
+      "reason": null,
+      "request_id": "b9414c6a-afb0-4a69-a769-6f0fa4a6bffc"
+    },
+    {
+      "_id": "4c08c89b-6094-4191-9db7-7eae5749f659",
+      "action": "invitation.accepted",
+      "actor_id": "c2be145c-1c93-4aeb-9a07-c56fe4f33728",
+      "after": {
+        "email": "team-invite-20261022@example.com",
+        "role": "viewer"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:03:39.880Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "f7913a96-89d2-4f15-a2c3-7bd4394eee2e",
+      "reason": null,
+      "request_id": "b9414c6a-afb0-4a69-a769-6f0fa4a6bffc"
+    },
+    {
+      "_id": "abbbd919-1521-4cf0-a3d6-967bae06428c",
+      "action": "auth.login",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": null,
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:07:20.348Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "reason": null,
+      "request_id": "370da7bb-31ad-4248-9a93-aa8dd05edcfc"
+    },
+    {
+      "_id": "4d4f68bb-d9ab-4160-9d09-3726ae6ca448",
+      "action": "membership.status_changed",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "status": "inactive"
+      },
+      "before": {
+        "status": "active"
+      },
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:12:11.632Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "f0e5d2df-3a42-47f1-a82b-e9aa7f16a6c8",
+      "reason": null,
+      "request_id": "2a4d4552-baae-4095-8110-c89268ba4955"
+    },
+    {
+      "_id": "b517362e-600c-4a63-bf53-1eb21b9a8b57",
+      "action": "company.registered",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": {
+        "currency": "USD",
+        "name": "Ntane"
+      },
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.537Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "reason": null,
+      "request_id": "10453fb0-2e85-450e-a77e-0c522abc23c7"
+    },
+    {
+      "_id": "edf8d03a-8b2d-434c-9d39-af496cd00174",
+      "action": "membership.role_assigned",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": {
+        "location_ids": [],
+        "role": "owner"
+      },
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.562Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "3e8a354f-4f40-40b1-bedc-632451f7c0f0",
+      "reason": null,
+      "request_id": "10453fb0-2e85-450e-a77e-0c522abc23c7"
+    },
+    {
+      "_id": "f6fbd92a-631b-4712-bcdb-1787b9004af4",
+      "action": "invitation.created",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": {
+        "email": "raj@gmail.com",
+        "expires_at": "2026-10-29T11:47:39.776510+00:00",
+        "location_ids": [],
+        "role": "warehouse_supervisor"
+      },
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:47:39.790Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "1047f35e-4313-4852-b76f-064a44982485",
+      "reason": null,
+      "request_id": "298a6490-bf5e-4254-ab09-68ef684877d7"
+    },
+    {
+      "_id": "e9e7c0c6-9ac3-412b-bebd-c3e614ac25b8",
+      "action": "membership.role_assigned",
+      "actor_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "after": {
+        "invitation_id": "1047f35e-4313-4852-b76f-064a44982485",
+        "location_ids": [],
+        "role": "warehouse_supervisor"
+      },
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:48:41.565Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "5f75806b-3ca4-4dce-aa19-33d489c8386b",
+      "reason": null,
+      "request_id": "eac6bf6c-546a-496d-b406-8a6f11860a5c"
+    },
+    {
+      "_id": "a51a7af6-c042-41ac-b9c0-9d08994f45cc",
+      "action": "invitation.accepted",
+      "actor_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "after": {
+        "email": "raj@gmail.com",
+        "role": "warehouse_supervisor"
+      },
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:48:41.581Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "1047f35e-4313-4852-b76f-064a44982485",
+      "reason": null,
+      "request_id": "eac6bf6c-546a-496d-b406-8a6f11860a5c"
+    },
+    {
+      "_id": "35431f45-0b39-4a7e-a155-e657a12c7e52",
+      "action": "auth.login",
+      "actor_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "after": null,
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:49:32.978Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "reason": null,
+      "request_id": "3bc806c0-f1d9-4a8d-b92f-ef2dfb1aa1f2"
+    },
+    {
+      "_id": "38a86ead-acdc-4a0c-b4de-cc4f5e7bc6a2",
+      "action": "auth.login",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": null,
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:51:12.182Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "reason": null,
+      "request_id": "5f755b23-67d6-4e96-9685-de57db9930a6"
+    },
+    {
+      "_id": "aaeff8cb-19ca-4d82-89f6-31c4a790ea7f",
+      "action": "auth.login",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": null,
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:19:33.984Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "reason": null,
+      "request_id": "fef9eed9-b91d-4600-8153-e50b716d26cc"
+    },
+    {
+      "_id": "1cecb29d-5858-41b4-9398-4b724b54c13a",
+      "action": "invitation.created",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "bulk": true,
+        "email": "bulk-a-20261022@example.com",
+        "expires_at": "2026-10-29T12:26:39.211997+00:00",
+        "location_ids": [],
+        "role": "inventory_operator"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:26:39.240Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "fc4daee5-0583-4a05-b396-0686d4920a81",
+      "reason": null,
+      "request_id": "f0ae2918-99d3-438c-8741-5ed63319702a"
+    },
+    {
+      "_id": "a49c0fab-515f-4cb4-b3e7-d8a4799ced7e",
+      "action": "invitation.created",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "bulk": true,
+        "email": "bulk-b-20261022@example.com",
+        "expires_at": "2026-10-29T12:26:39.211997+00:00",
+        "location_ids": [],
+        "role": "inventory_operator"
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:26:39.303Z"
+      },
+      "device_id": null,
+      "entity": "invitation",
+      "entity_id": "9f105ad8-2443-432f-a6e1-726b7a1dd6eb",
+      "reason": null,
+      "request_id": "f0ae2918-99d3-438c-8741-5ed63319702a"
+    },
+    {
+      "_id": "c7329355-bef5-4aa8-bfec-a8e318554727",
+      "action": "invitation.bulk_created",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": {
+        "created_count": 2,
+        "location_ids": [],
+        "role": "inventory_operator",
+        "skipped_count": 1
+      },
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:26:39.342Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "reason": null,
+      "request_id": "f0ae2918-99d3-438c-8741-5ed63319702a"
+    },
+    {
+      "_id": "d79e8e13-9275-436c-88cd-a36d44b41d3e",
+      "action": "auth.login",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": null,
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T06:26:43.284Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "reason": null,
+      "request_id": "67e87e69-3230-421b-a4f4-2df3c0173210"
+    },
+    {
+      "_id": "7b1ed5ec-bdd2-4f43-b3c9-3b751a5874d4",
+      "action": "auth.login",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": null,
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T06:30:29.335Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "reason": null,
+      "request_id": "d463acdc-893b-4116-b7b3-a30b1ddae381"
+    },
+    {
+      "_id": "2da6ae48-4c69-4867-b58d-f57d70838432",
+      "action": "auth.login",
+      "actor_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "after": null,
+      "before": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T06:41:40.251Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "reason": null,
+      "request_id": "3cfd27d2-90e7-4d68-b2be-8760723a3658"
+    },
+    {
+      "_id": "55f0c3cf-a355-406b-9167-fcb336723dc7",
+      "action": "auth.login",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": null,
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T07:46:19.898Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "reason": null,
+      "request_id": "a779a1a7-852e-4383-87f9-4ab1f0fde6b8"
+    },
+    {
+      "_id": "88c56fd8-6fb7-42bd-a5ee-f6a8330607a4",
+      "action": "auth.login",
+      "actor_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "after": null,
+      "before": null,
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T08:14:14.838Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "reason": null,
+      "request_id": "10e8d621-9e42-418b-a1a8-ae6c001e9557"
+    },
+    {
+      "_id": "0462f667-82f8-4829-a099-9d0698dd681c",
+      "action": "company.registered",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "currency": "USD",
+        "name": "NTAN Coimbatore Pilot"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.881Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "reason": null,
+      "request_id": "637dade8-3ecf-47fc-83ae-7820f4d7730f"
+    },
+    {
+      "_id": "2c35f60a-2560-4666-bb61-2972a2a4fd84",
+      "action": "membership.role_assigned",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "location_ids": [],
+        "role": "owner"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.901Z"
+      },
+      "device_id": null,
+      "entity": "membership",
+      "entity_id": "36172089-7eff-450b-8f75-516921932b15",
+      "reason": null,
+      "request_id": "637dade8-3ecf-47fc-83ae-7820f4d7730f"
+    },
+    {
+      "_id": "bd60c69b-1a3e-4edf-b1f6-61a5a051022a",
+      "action": "warehouse.created",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "default_locations": [
+          "RECV",
+          "MAIN",
+          "BIN-01"
+        ],
+        "name": "Coimbatore Warehouse"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:29:58.748Z"
+      },
+      "device_id": null,
+      "entity": "warehouse",
+      "entity_id": "79635188-72bf-4447-9dbf-dbb611aed00a",
+      "reason": null,
+      "request_id": "dc76fe96-1dbc-48d8-b6e7-c7fd49ec745e"
+    },
+    {
+      "_id": "a292a5ba-f549-4aa5-a7d3-349da991ae40",
+      "action": "item.created",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "name": "M8 hex bolt, 30 mm",
+        "sku": "CBE-BOLT-M8"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:36:08.714Z"
+      },
+      "device_id": null,
+      "entity": "item",
+      "entity_id": "23e90b16-0c0f-4a9b-b28a-172d8d5634e1",
+      "reason": null,
+      "request_id": "2ce50243-f3ba-4189-aa2b-4b4b526301d4"
+    },
+    {
+      "_id": "36f96df3-d7d8-4919-94a2-c783913bcb0f",
+      "action": "item.created",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "name": "Nitrile gloves, pair",
+        "sku": "CBE-GLOVE-NTR"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:37:10.697Z"
+      },
+      "device_id": null,
+      "entity": "item",
+      "entity_id": "edb2ca61-f04c-4c95-bdf1-5864a6e6f8f0",
+      "reason": null,
+      "request_id": "f9433743-fec3-4864-a0b9-484884309c16"
+    },
+    {
+      "_id": "3bcb53a2-ca98-4ce1-bca2-b1860b40d106",
+      "action": "item.created",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "name": "Bearing 6204",
+        "sku": "CBE-BEARING-6204"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:37:44.310Z"
+      },
+      "device_id": null,
+      "entity": "item",
+      "entity_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "reason": null,
+      "request_id": "40200cc1-0bea-407d-a0d7-8fc31df0832c"
+    },
+    {
+      "_id": "bfda8015-241b-486a-a08e-8a5db7726a14",
+      "action": "receipt.drafted",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "line_count": 1,
+        "location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+        "number": "GR-20261023-93692F",
+        "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+      },
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:40:54.425Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "reason": null,
+      "request_id": "7140d657-b39f-4cfb-ac36-daf4272d71fc"
+    },
+    {
+      "_id": "03de8aaa-4650-49e7-9818-6f68628ee56a",
+      "action": "receipt.committed",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "line_count": 1,
+        "status": "applied"
+      },
+      "before": {
+        "status": "draft"
+      },
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "device_id": null,
+      "entity": "receipt",
+      "entity_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "reason": null,
+      "request_id": "fd2f6720-67c9-4f37-90a8-670dcc14c8e3"
+    },
+    {
+      "_id": "f82ac4c4-4171-48ea-a500-bb73b313718b",
+      "action": "auth.login",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": null,
+      "before": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:57:23.890Z"
+      },
+      "device_id": null,
+      "entity": "user",
+      "entity_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "reason": null,
+      "request_id": "63e369db-88c3-4901-b653-7ba701df0959"
+    },
+    {
+      "_id": "12be4970-6346-4c16-a8b4-5646f5d7a7be",
+      "action": "putaway.completed",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "base_qty": {
+          "$numberDecimal": "30"
+        },
+        "receipt_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+        "status": "completed",
+        "to_location_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e"
+      },
+      "before": {
+        "status": "pending"
+      },
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "device_id": null,
+      "entity": "putaway_task",
+      "entity_id": "2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "reason": null,
+      "request_id": "770a138e-39e9-4399-9b49-33bcc63ff558"
+    },
+    {
+      "_id": "138b10a8-7eb0-4f0e-9117-77e51c98ee8d",
+      "action": "company.updated",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "after": {
+        "inventory_model": "hybrid"
+      },
+      "before": {
+        "currency": "USD",
+        "name": "NTAN Coimbatore Pilot",
+        "timezone": "UTC"
+      },
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:46:51.672Z"
+      },
+      "device_id": null,
+      "entity": "company",
+      "entity_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "reason": null,
+      "request_id": "ea83fc7d-50fd-422d-9dad-0232aa334eb7"
+    }
+  ],
+  "balances": [
+    {
+      "_id": "f089ac58-77fa-40ed-93fd-e335be8af51d",
+      "blocked": {
+        "$numberDecimal": "0"
+      },
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "lot_id": null,
+      "on_hand": {
+        "$numberDecimal": "13"
+      },
+      "reserved": {
+        "$numberDecimal": "0"
+      },
+      "serial_id": null,
+      "sku": "BRG-6204",
+      "stock_status": "available",
+      "updated_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "version": 3,
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "0f092d53-dee7-4ef1-bee1-790ab825f71e",
+      "blocked": {
+        "$numberDecimal": "0"
+      },
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "expiry_date": null,
+      "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "item_name": "Bearing 6204",
+      "location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "lot_id": null,
+      "lot_no": null,
+      "on_hand": {
+        "$numberDecimal": "0"
+      },
+      "reserved": {
+        "$numberDecimal": "0"
+      },
+      "serial_id": null,
+      "sku": "CBE-BEARING-6204",
+      "stock_status": "available",
+      "updated_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "version": 2,
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    },
+    {
+      "_id": "0db637db-eb04-440d-b1a1-d672252022e3",
+      "blocked": {
+        "$numberDecimal": "0"
+      },
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "expiry_date": null,
+      "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "item_name": "Bearing 6204",
+      "location_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e",
+      "lot_id": null,
+      "lot_no": null,
+      "on_hand": {
+        "$numberDecimal": "30"
+      },
+      "reserved": {
+        "$numberDecimal": "0"
+      },
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "CBE-BEARING-6204",
+      "stock_status": "available",
+      "updated_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "version": 1,
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    }
+  ],
+  "clients": [
+    {
+      "_id": "0c51b41d-7164-4deb-bec2-0f2677e33fb3",
+      "code": "INTERNAL",
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.398Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.398Z"
+      }
+    },
+    {
+      "_id": "3e03c0bb-6f5a-43d1-86d4-2f690c9755ee",
+      "code": "INTERNAL",
+      "company_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.447Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.447Z"
+      }
+    },
+    {
+      "_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "code": "INTERNAL",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.476Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.476Z"
+      }
+    },
+    {
+      "_id": "89741fc5-1915-4d70-8f35-f176637ed396",
+      "code": "INTERNAL",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.540Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.540Z"
+      }
+    },
+    {
+      "_id": "9660ffb3-a7a2-4c5d-b0f8-411467a506c5",
+      "code": "INTERNAL",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.586Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.586Z"
+      }
+    },
+    {
+      "_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "code": "INTERNAL",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "contact_email": null,
+      "contact_name": null,
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.839Z"
+      },
+      "is_internal": true,
+      "name": "Internal",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T08:28:56.839Z"
+      }
+    }
+  ],
+  "companies": [
+    {
+      "_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:31:59.651Z"
+      },
+      "currency": "USD",
+      "inventory_model": "internal",
+      "name": "Connectivity Test Co",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.385Z"
+      }
+    },
+    {
+      "_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "created_at": {
+        "$date": "2026-10-22T07:32:26.469Z"
+      },
+      "currency": "USD",
+      "inventory_model": "internal",
+      "name": "Emulator Test Co",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.441Z"
+      }
+    },
+    {
+      "_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:39:58.591Z"
+      },
+      "currency": "USD",
+      "inventory_model": "internal",
+      "name": "Connectivity Check",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.469Z"
+      }
+    },
+    {
+      "_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.432Z"
+      },
+      "currency": "USD",
+      "inventory_model": "internal",
+      "name": "Team Check Co",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.534Z"
+      }
+    },
+    {
+      "_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.261Z"
+      },
+      "currency": "USD",
+      "inventory_model": "internal",
+      "name": "Ntane",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.581Z"
+      }
+    },
+    {
+      "_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.706Z"
+      },
+      "currency": "USD",
+      "inventory_model": "hybrid",
+      "name": "NTAN Coimbatore Pilot",
+      "status": "active",
+      "timezone": "UTC",
+      "updated_at": {
+        "$date": "2026-10-23T09:46:51.663Z"
+      }
+    }
+  ],
+  "invitations": [
+    {
+      "_id": "cdadcaa2-773d-4040-ae25-e22802fd9507",
+      "accepted_at": {
+        "$date": "2026-10-22T09:52:43.460Z"
+      },
+      "accepted_by": "9c6b84cb-d7c9-40b3-b851-09af0fda8975",
+      "client_ids": [],
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:47:00.417Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "email": "join-check-20261022@example.com",
+      "expires_at": {
+        "$date": "2026-10-29T09:47:00.417Z"
+      },
+      "location_ids": [],
+      "revoked_at": null,
+      "role": "viewer",
+      "token_hash": "c738d5bb5bc9cecc26747d21c4c609035c35cb5df183cb98feb13662cb26b3c7",
+      "updated_at": {
+        "$date": "2026-10-22T09:52:43.460Z"
+      }
+    },
+    {
+      "_id": "f7913a96-89d2-4f15-a2c3-7bd4394eee2e",
+      "accepted_at": {
+        "$date": "2026-10-22T11:03:39.765Z"
+      },
+      "accepted_by": "c2be145c-1c93-4aeb-9a07-c56fe4f33728",
+      "client_ids": [],
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:50:57.441Z"
+      },
+      "created_by": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "email": "team-invite-20261022@example.com",
+      "expires_at": {
+        "$date": "2026-10-29T10:50:57.441Z"
+      },
+      "location_ids": [
+        "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+        "09e509ba-4c8e-47b6-900f-f54470fdb77f"
+      ],
+      "revoked_at": null,
+      "role": "viewer",
+      "token_hash": "8d361a179725c880ba7c80ced6de0bba9385c70ec64699a5577a7487262440ae",
+      "updated_at": {
+        "$date": "2026-10-22T11:03:39.765Z"
+      }
+    },
+    {
+      "_id": "1047f35e-4313-4852-b76f-064a44982485",
+      "accepted_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      },
+      "accepted_by": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "client_ids": [],
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:47:39.776Z"
+      },
+      "created_by": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "email": "raj@gmail.com",
+      "expires_at": {
+        "$date": "2026-10-29T11:47:39.776Z"
+      },
+      "location_ids": [],
+      "revoked_at": null,
+      "role": "warehouse_supervisor",
+      "token_hash": "3245d7453193096c9ccf979288a1c049035289d92731772798090fd820cf75b0",
+      "updated_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      }
+    },
+    {
+      "_id": "fc4daee5-0583-4a05-b396-0686d4920a81",
+      "accepted_at": null,
+      "accepted_by": null,
+      "active_key": "40612f2f-9afb-4bdf-9055-1f714712f11a:bulk-a-20261022@example.com",
+      "client_ids": [],
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:26:39.211Z"
+      },
+      "created_by": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "email": "bulk-a-20261022@example.com",
+      "expires_at": {
+        "$date": "2026-10-29T12:26:39.211Z"
+      },
+      "location_ids": [],
+      "revoked_at": null,
+      "role": "inventory_operator",
+      "token_hash": "38db42a85eb2a5e17f7f09d77aa7e59b1a923ee6fcf88f4d62af3d8c70bbc8c4",
+      "updated_at": {
+        "$date": "2026-10-22T12:26:39.211Z"
+      }
+    },
+    {
+      "_id": "9f105ad8-2443-432f-a6e1-726b7a1dd6eb",
+      "accepted_at": null,
+      "accepted_by": null,
+      "active_key": "40612f2f-9afb-4bdf-9055-1f714712f11a:bulk-b-20261022@example.com",
+      "client_ids": [],
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:26:39.211Z"
+      },
+      "created_by": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "email": "bulk-b-20261022@example.com",
+      "expires_at": {
+        "$date": "2026-10-29T12:26:39.211Z"
+      },
+      "location_ids": [],
+      "revoked_at": null,
+      "role": "inventory_operator",
+      "token_hash": "bfae51387501763a0653317ba3b485e30e2de5b8afa4806c8d1d50b5823c9448",
+      "updated_at": {
+        "$date": "2026-10-22T12:26:39.211Z"
+      }
+    }
+  ],
+  "items": [
+    {
+      "_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "barcode": null,
+      "base_uom": "EA",
+      "category": null,
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "cost": null,
+      "created_at": {
+        "$date": "2026-10-22T09:31:50.778Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "description": null,
+      "item_type": "stocked_material",
+      "name": "Bearing 6204",
+      "reorder_point": {
+        "$numberDecimal": "5"
+      },
+      "sku": "BRG-6204",
+      "status": "active",
+      "tracking_mode": "none",
+      "updated_at": {
+        "$date": "2026-10-22T09:31:50.778Z"
+      }
+    },
+    {
+      "_id": "23e90b16-0c0f-4a9b-b28a-172d8d5634e1",
+      "barcode": null,
+      "base_uom": "EA",
+      "category": null,
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "cost": null,
+      "created_at": {
+        "$date": "2026-10-23T08:36:08.675Z"
+      },
+      "created_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "description": null,
+      "expiry_tracked": false,
+      "item_type": "stocked_material",
+      "name": "M8 hex bolt, 30 mm",
+      "reorder_point": {
+        "$numberDecimal": "100"
+      },
+      "sku": "CBE-BOLT-M8",
+      "status": "active",
+      "tracking_mode": "none",
+      "updated_at": {
+        "$date": "2026-10-23T08:36:08.675Z"
+      }
+    },
+    {
+      "_id": "edb2ca61-f04c-4c95-bdf1-5864a6e6f8f0",
+      "barcode": null,
+      "base_uom": "PR",
+      "category": null,
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "cost": null,
+      "created_at": {
+        "$date": "2026-10-23T08:37:10.690Z"
+      },
+      "created_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "description": null,
+      "expiry_tracked": false,
+      "item_type": "stocked_material",
+      "name": "Nitrile gloves, pair",
+      "reorder_point": {
+        "$numberDecimal": "50"
+      },
+      "sku": "CBE-GLOVE-NTR",
+      "status": "active",
+      "tracking_mode": "none",
+      "updated_at": {
+        "$date": "2026-10-23T08:37:10.690Z"
+      }
+    },
+    {
+      "_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "barcode": null,
+      "base_uom": "EA",
+      "category": null,
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "cost": null,
+      "created_at": {
+        "$date": "2026-10-23T08:37:44.304Z"
+      },
+      "created_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "description": null,
+      "expiry_tracked": false,
+      "item_type": "stocked_material",
+      "name": "Bearing 6204",
+      "reorder_point": {
+        "$numberDecimal": "20"
+      },
+      "sku": "CBE-BEARING-6204",
+      "status": "active",
+      "tracking_mode": "none",
+      "updated_at": {
+        "$date": "2026-10-23T08:37:44.304Z"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "code": "RECV",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:34:04.536Z"
+      },
+      "is_pickable": false,
+      "parent_id": null,
+      "path": "RECV",
+      "status": "active",
+      "type": "receiving",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.511Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "a1862491-b1af-4b42-9fbb-a7ee545ba530",
+      "code": "MAIN",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:34:04.536Z"
+      },
+      "is_pickable": true,
+      "parent_id": null,
+      "path": "MAIN",
+      "status": "active",
+      "type": "main",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.518Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "09e509ba-4c8e-47b6-900f-f54470fdb77f",
+      "code": "RECV",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:46:39.423Z"
+      },
+      "is_pickable": false,
+      "parent_id": null,
+      "path": "RECV",
+      "status": "active",
+      "type": "receiving",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.562Z"
+      },
+      "warehouse_id": "349e17f8-aa8e-4d68-936c-0050c5b97bbc"
+    },
+    {
+      "_id": "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+      "code": "MAIN",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:46:39.423Z"
+      },
+      "is_pickable": true,
+      "parent_id": null,
+      "path": "MAIN",
+      "status": "active",
+      "type": "main",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.568Z"
+      },
+      "warehouse_id": "349e17f8-aa8e-4d68-936c-0050c5b97bbc"
+    },
+    {
+      "_id": "bdc8c9d1-42a6-4191-8b05-6ee4a5ec4236",
+      "barcode": null,
+      "code": "BIN-01",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.528Z"
+      },
+      "is_pickable": true,
+      "parent_id": "a1862491-b1af-4b42-9fbb-a7ee545ba530",
+      "path": "MAIN/BIN-01",
+      "status": "active",
+      "type": "bin",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.528Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "a5b6caaf-aa08-4e7d-9cba-1907605fcc30",
+      "barcode": null,
+      "code": "BIN-01",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T07:26:57.577Z"
+      },
+      "is_pickable": true,
+      "parent_id": "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+      "path": "MAIN/BIN-01",
+      "status": "active",
+      "type": "bin",
+      "updated_at": {
+        "$date": "2026-10-23T07:26:57.577Z"
+      },
+      "warehouse_id": "349e17f8-aa8e-4d68-936c-0050c5b97bbc"
+    },
+    {
+      "_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "barcode": null,
+      "code": "RECV",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "is_pickable": false,
+      "parent_id": null,
+      "path": "RECV",
+      "status": "active",
+      "type": "receiving",
+      "updated_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    },
+    {
+      "_id": "5874d230-d1bd-4e4a-abf3-185d047e139e",
+      "barcode": null,
+      "code": "MAIN",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "is_pickable": false,
+      "parent_id": null,
+      "path": "MAIN",
+      "status": "active",
+      "type": "main",
+      "updated_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    },
+    {
+      "_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e",
+      "barcode": null,
+      "code": "BIN-01",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "is_pickable": true,
+      "parent_id": "5874d230-d1bd-4e4a-abf3-185d047e139e",
+      "path": "MAIN/BIN-01",
+      "status": "active",
+      "type": "bin",
+      "updated_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    }
+  ],
+  "lots": [],
+  "memberships": [
+    {
+      "_id": "965927f8-e336-49db-8403-e2f4ee9e6fde",
+      "client_ids": [],
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:31:59.651Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:31:59.651Z"
+      },
+      "user_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48"
+    },
+    {
+      "_id": "9ac4404d-be64-4835-b472-b33069c9c2cb",
+      "client_ids": [],
+      "company_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "created_at": {
+        "$date": "2026-10-22T07:32:26.469Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:32:26.469Z"
+      },
+      "user_id": "2f7d4421-84b3-4f4d-b5cb-5d6db94ec605"
+    },
+    {
+      "_id": "f7ab2cdb-a5da-41d7-8071-435be11a5f46",
+      "client_ids": [],
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:39:58.591Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:39:58.591Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "c11d129f-be25-4c32-af0d-54034be72593",
+      "client_ids": [],
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:52:43.460Z"
+      },
+      "location_ids": [],
+      "role": "viewer",
+      "status": "inactive",
+      "updated_at": {
+        "$date": "2026-10-22T09:54:40.152Z"
+      },
+      "user_id": "9c6b84cb-d7c9-40b3-b851-09af0fda8975"
+    },
+    {
+      "_id": "d188a5da-c9bf-4d65-9601-a4d78a20f1b9",
+      "client_ids": [],
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.432Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T10:45:48.432Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "f0e5d2df-3a42-47f1-a82b-e9aa7f16a6c8",
+      "client_ids": [],
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:03:39.765Z"
+      },
+      "location_ids": [
+        "059b8b74-3fe6-4c29-b875-e5cbcf044bce",
+        "09e509ba-4c8e-47b6-900f-f54470fdb77f"
+      ],
+      "role": "viewer",
+      "status": "inactive",
+      "updated_at": {
+        "$date": "2026-10-22T11:12:11.602Z"
+      },
+      "user_id": "c2be145c-1c93-4aeb-9a07-c56fe4f33728"
+    },
+    {
+      "_id": "3e8a354f-4f40-40b1-bedc-632451f7c0f0",
+      "client_ids": [],
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.261Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T11:46:33.261Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "5f75806b-3ca4-4dce-aa19-33d489c8386b",
+      "client_ids": [],
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      },
+      "location_ids": [],
+      "role": "warehouse_supervisor",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      },
+      "user_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74"
+    },
+    {
+      "_id": "36172089-7eff-450b-8f75-516921932b15",
+      "client_ids": [],
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.706Z"
+      },
+      "location_ids": [],
+      "role": "owner",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T08:28:56.706Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    }
+  ],
+  "movements": [
+    {
+      "_id": "39947ce8-d1c8-4582-8e9f-72319996911e",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "base_qty": {
+        "$numberDecimal": "10"
+      },
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "device_id": null,
+      "from_location_id": null,
+      "idempotency_key": "1126997e-b0b9-4eb0-91fd-75a978a80403:1a1fc32b-3263-4bc1-bba4-909b11674bc8",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "1a1fc32b-3263-4bc1-bba4-909b11674bc8",
+      "lot_id": null,
+      "occurred_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "quantity_delta": {
+        "$numberDecimal": "10"
+      },
+      "reason": null,
+      "receipt_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "recorded_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "reversal_of": null,
+      "serial_id": null,
+      "sku": "BRG-6204",
+      "source_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "source_number": "GR-20261022-943B38",
+      "source_type": "receipt",
+      "stock_status": "available",
+      "to_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "type": "receipt",
+      "uom": "EA"
+    },
+    {
+      "_id": "44915ac8-4dd5-44a7-8f18-9bd6fc91c707",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "base_qty": {
+        "$numberDecimal": "2"
+      },
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "device_id": null,
+      "from_location_id": null,
+      "idempotency_key": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30:710a1adb-7bc4-4872-a98c-4286f615986c",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "710a1adb-7bc4-4872-a98c-4286f615986c",
+      "lot_id": null,
+      "occurred_at": {
+        "$date": "2026-10-22T10:00:01.072Z"
+      },
+      "quantity_delta": {
+        "$numberDecimal": "2"
+      },
+      "reason": null,
+      "receipt_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "recorded_at": {
+        "$date": "2026-10-22T10:00:01.072Z"
+      },
+      "reversal_of": null,
+      "serial_id": null,
+      "sku": "BRG-6204",
+      "source_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "source_number": "GR-20261022-81C06D",
+      "source_type": "receipt",
+      "stock_status": "available",
+      "to_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "type": "receipt",
+      "uom": "EA"
+    },
+    {
+      "_id": "7e7daf5e-1744-49c8-a327-caa3f78bd787",
+      "actor_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "base_qty": {
+        "$numberDecimal": "1"
+      },
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "device_id": null,
+      "from_location_id": null,
+      "idempotency_key": "09914c60-b0ac-417d-b19c-02c4859fa648:6bb8599f-550e-464c-a006-b491474845c0",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "6bb8599f-550e-464c-a006-b491474845c0",
+      "lot_id": null,
+      "occurred_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "quantity_delta": {
+        "$numberDecimal": "1"
+      },
+      "reason": null,
+      "receipt_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "recorded_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "reversal_of": null,
+      "serial_id": null,
+      "sku": "BRG-6204",
+      "source_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "source_number": "GR-20261022-5D5695",
+      "source_type": "receipt",
+      "stock_status": "available",
+      "to_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "type": "receipt",
+      "uom": "EA"
+    },
+    {
+      "_id": "8110c781-c35f-4c79-af8e-ace608dfdd09",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "base_qty": {
+        "$numberDecimal": "30"
+      },
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "device_id": null,
+      "expiry_date": null,
+      "from_location_id": null,
+      "idempotency_key": "38fba64d-0ede-402c-b1fb-798fcf85413c:c9496f5e-e324-4deb-93c5-16f490e0ce2b",
+      "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "item_name": "Bearing 6204",
+      "line_id": "c9496f5e-e324-4deb-93c5-16f490e0ce2b",
+      "lot_id": null,
+      "lot_no": null,
+      "occurred_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "quantity_delta": {
+        "$numberDecimal": "30"
+      },
+      "reason": null,
+      "receipt_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "recorded_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "reversal_of": null,
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "CBE-BEARING-6204",
+      "source_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "source_number": "GR-20261023-93692F",
+      "source_type": "receipt",
+      "stock_status": "available",
+      "to_location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "type": "receipt",
+      "uom": "EA"
+    },
+    {
+      "_id": "1c19c513-df5c-4ba9-ba0a-c0ae17667b16",
+      "actor_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "base_qty": {
+        "$numberDecimal": "30"
+      },
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "device_id": null,
+      "expiry_date": null,
+      "from_location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "idempotency_key": "putaway:2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "item_name": "Bearing 6204",
+      "lot_id": null,
+      "lot_no": null,
+      "occurred_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "putaway_task_id": "2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "quantity_delta": {
+        "$numberDecimal": "0"
+      },
+      "reason": null,
+      "recorded_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "reversal_of": null,
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "CBE-BEARING-6204",
+      "source_id": "2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "source_number": "GR-20261023-93692F",
+      "source_type": "putaway_task",
+      "stock_status": "available",
+      "to_location_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e",
+      "type": "putaway",
+      "uom": "EA"
+    }
+  ],
+  "outbound_orders": [],
+  "putaway_tasks": [
+    {
+      "_id": "9ec77488-1f4d-4c6e-af91-86f186e0ee6d",
+      "base_qty": {
+        "$numberDecimal": "1"
+      },
+      "base_uom": "EA",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "completed_at": null,
+      "completed_by": null,
+      "created_at": {
+        "$date": "2026-10-23T07:45:26.009Z"
+      },
+      "expiry_date": null,
+      "from_location_code": "RECV",
+      "from_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "from_location_path": "RECV",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "6bb8599f-550e-464c-a006-b491474845c0",
+      "lot_id": null,
+      "lot_no": null,
+      "qty": {
+        "$numberDecimal": "1"
+      },
+      "receipt_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "receipt_number": "GR-20261022-5D5695",
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "BRG-6204",
+      "status": "pending",
+      "to_location_code": null,
+      "to_location_id": null,
+      "uom": "EA",
+      "updated_at": {
+        "$date": "2026-10-23T07:45:26.009Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "a2b33cdc-68c1-4750-84d7-1f3619df51f6",
+      "base_qty": {
+        "$numberDecimal": "2"
+      },
+      "base_uom": "EA",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "completed_at": null,
+      "completed_by": null,
+      "created_at": {
+        "$date": "2026-10-23T07:45:26.023Z"
+      },
+      "expiry_date": null,
+      "from_location_code": "RECV",
+      "from_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "from_location_path": "RECV",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "710a1adb-7bc4-4872-a98c-4286f615986c",
+      "lot_id": null,
+      "lot_no": null,
+      "qty": {
+        "$numberDecimal": "2"
+      },
+      "receipt_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "receipt_number": "GR-20261022-81C06D",
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "BRG-6204",
+      "status": "pending",
+      "to_location_code": null,
+      "to_location_id": null,
+      "uom": "EA",
+      "updated_at": {
+        "$date": "2026-10-23T07:45:26.023Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "64b2b70e-0d17-41cd-9db2-1ff906bce76e",
+      "base_qty": {
+        "$numberDecimal": "10"
+      },
+      "base_uom": "EA",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "completed_at": null,
+      "completed_by": null,
+      "created_at": {
+        "$date": "2026-10-23T07:45:26.034Z"
+      },
+      "expiry_date": null,
+      "from_location_code": "RECV",
+      "from_location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "from_location_path": "RECV",
+      "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+      "item_name": "Bearing 6204",
+      "line_id": "1a1fc32b-3263-4bc1-bba4-909b11674bc8",
+      "lot_id": null,
+      "lot_no": null,
+      "qty": {
+        "$numberDecimal": "10"
+      },
+      "receipt_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "receipt_number": "GR-20261022-943B38",
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "BRG-6204",
+      "status": "pending",
+      "to_location_code": null,
+      "to_location_id": null,
+      "uom": "EA",
+      "updated_at": {
+        "$date": "2026-10-23T07:45:26.034Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "base_qty": {
+        "$numberDecimal": "30"
+      },
+      "base_uom": "EA",
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "completed_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "completed_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "created_at": {
+        "$date": "2026-10-23T08:40:54.862Z"
+      },
+      "expiry_date": null,
+      "from_location_code": "RECV",
+      "from_location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "from_location_path": "RECV",
+      "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+      "item_name": "Bearing 6204",
+      "line_id": "c9496f5e-e324-4deb-93c5-16f490e0ce2b",
+      "lot_id": null,
+      "lot_no": null,
+      "qty": {
+        "$numberDecimal": "30"
+      },
+      "receipt_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "receipt_number": "GR-20261023-93692F",
+      "serial_id": null,
+      "serial_no": null,
+      "sku": "CBE-BEARING-6204",
+      "status": "completed",
+      "to_location_code": "BIN-01",
+      "to_location_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e",
+      "to_location_path": "MAIN/BIN-01",
+      "uom": "EA",
+      "updated_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    }
+  ],
+  "rate_limits": [],
+  "receipts": [
+    {
+      "_id": "1126997e-b0b9-4eb0-91fd-75a978a80403",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "committed_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "committed_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:35:14.197Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "device_id": null,
+      "discrepancy_reason": null,
+      "idempotency_key": "c4978325-274b-44d1-88f9-a45babc40315",
+      "lines": [
+        {
+          "base_qty": {
+            "$numberDecimal": "10"
+          },
+          "base_uom": "EA",
+          "discrepancy_reason": null,
+          "id": "1a1fc32b-3263-4bc1-bba4-909b11674bc8",
+          "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+          "item_name": "Bearing 6204",
+          "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+          "lot_id": null,
+          "qty": {
+            "$numberDecimal": "10"
+          },
+          "serial_no": null,
+          "sku": "BRG-6204",
+          "uom": "EA"
+        }
+      ],
+      "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "note": null,
+      "number": "GR-20261022-943B38",
+      "purchase_order": null,
+      "putaway_completed_at": null,
+      "putaway_required": true,
+      "request_fingerprint": "d02b317a7cf33ae4dbba93e660e6be64179d5dd5d4d68687e05ca1125064c0c3",
+      "status": "applied",
+      "supplier": null,
+      "updated_at": {
+        "$date": "2026-10-22T09:35:14.752Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "4c3c1a71-7c96-4672-afa0-bc7e8094cd30",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "committed_at": {
+        "$date": "2026-10-22T10:00:01.072Z"
+      },
+      "committed_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:57:25.523Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "device_id": null,
+      "discrepancy_reason": null,
+      "idempotency_key": "8e6ee5bc-f11e-4a32-80b8-1a4c26c9a42c",
+      "lines": [
+        {
+          "base_qty": {
+            "$numberDecimal": "2"
+          },
+          "base_uom": "EA",
+          "discrepancy_reason": null,
+          "id": "710a1adb-7bc4-4872-a98c-4286f615986c",
+          "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+          "item_name": "Bearing 6204",
+          "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+          "lot_id": null,
+          "qty": {
+            "$numberDecimal": "2"
+          },
+          "serial_no": null,
+          "sku": "BRG-6204",
+          "uom": "EA"
+        }
+      ],
+      "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "note": "Manual draft verification",
+      "number": "GR-20261022-81C06D",
+      "purchase_order": null,
+      "putaway_completed_at": null,
+      "putaway_required": true,
+      "request_fingerprint": "43da05e29110074e5dbb81bfce5886dc142c9163d9a9b4f999523af1bf1fb0db",
+      "status": "applied",
+      "supplier": "QA Supplier",
+      "updated_at": {
+        "$date": "2026-10-22T10:00:01.072Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "09914c60-b0ac-417d-b19c-02c4859fa648",
+      "client_id": "c9466dda-a26d-4f0e-afa5-f51eb8225074",
+      "committed_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "committed_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:10:24.944Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "device_id": null,
+      "discrepancy_reason": null,
+      "idempotency_key": "114fe24d-5476-4cbc-b22f-3cd9279c8dad",
+      "lines": [
+        {
+          "base_qty": {
+            "$numberDecimal": "1"
+          },
+          "base_uom": "EA",
+          "discrepancy_reason": null,
+          "id": "6bb8599f-550e-464c-a006-b491474845c0",
+          "item_id": "9f2aa527-6ad9-4a6d-89b7-0a59e4d07d3c",
+          "item_name": "Bearing 6204",
+          "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+          "lot_id": null,
+          "qty": {
+            "$numberDecimal": "1"
+          },
+          "serial_no": null,
+          "sku": "BRG-6204",
+          "uom": "EA"
+        }
+      ],
+      "location_id": "b6da2fe8-a9f2-4aa2-8ae6-9e2344b6cb81",
+      "note": null,
+      "number": "GR-20261022-5D5695",
+      "purchase_order": null,
+      "putaway_completed_at": null,
+      "putaway_required": true,
+      "request_fingerprint": "5b57dc3930ddb843e55b3d34ad0f8ddf66468690de9dad0d35db2c56f987d655",
+      "status": "applied",
+      "supplier": "Location QA",
+      "updated_at": {
+        "$date": "2026-10-22T10:14:50.885Z"
+      },
+      "warehouse_id": "dd9486da-2342-483a-975f-9b743c309d6d"
+    },
+    {
+      "_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "committed_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "committed_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:40:54.401Z"
+      },
+      "created_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "device_id": null,
+      "discrepancy_reason": null,
+      "idempotency_key": "f05844cd-2233-4906-9c07-407fce8c1b5a",
+      "lines": [
+        {
+          "base_qty": {
+            "$numberDecimal": "30"
+          },
+          "base_uom": "EA",
+          "discrepancy_reason": null,
+          "expiry_date": null,
+          "id": "c9496f5e-e324-4deb-93c5-16f490e0ce2b",
+          "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+          "item_name": "Bearing 6204",
+          "location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+          "lot_id": null,
+          "lot_no": null,
+          "qty": {
+            "$numberDecimal": "30"
+          },
+          "serial_no": null,
+          "serial_numbers": [],
+          "sku": "CBE-BEARING-6204",
+          "uom": "EA"
+        }
+      ],
+      "location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+      "note": "Coimbatore pilot inbound 1",
+      "number": "GR-20261023-93692F",
+      "purchase_order": null,
+      "putaway_completed_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "putaway_required": true,
+      "request_fingerprint": "b3c91469ac841d5ea1201aaa341219a000d9dc770a0e4e3f6e478f5f889fa8be",
+      "status": "applied",
+      "supplier": "Kovai Industrial Supplies",
+      "updated_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+    }
+  ],
+  "refresh_tokens": [
+    {
+      "_id": "660f4f0c-a2ee-4eb1-97fe-122637344f11",
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:31:59.818Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:31:59.818Z"
+      },
+      "revoked_at": null,
+      "user_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48"
+    },
+    {
+      "_id": "013cb2f6-df84-4a08-83f0-9bffa7a6bc7e",
+      "company_id": "9ec74a46-3300-4b17-a331-abfa42feb365",
+      "created_at": {
+        "$date": "2026-10-22T07:32:00.069Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:32:00.069Z"
+      },
+      "revoked_at": null,
+      "user_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48"
+    },
+    {
+      "_id": "a99be7e9-609c-4029-b73c-6eec2c41a6b8",
+      "company_id": "6086fcea-93f4-44e1-a465-019cbc9c7e7a",
+      "created_at": {
+        "$date": "2026-10-22T07:32:26.538Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:32:26.538Z"
+      },
+      "revoked_at": null,
+      "user_id": "2f7d4421-84b3-4f4d-b5cb-5d6db94ec605"
+    },
+    {
+      "_id": "87da0570-f9b8-4f7b-96ca-315686a83c06",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:39:58.692Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:39:58.692Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T07:46:44.130Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-22T07:46:44.130Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "c3671bde-4d9f-4ca8-8a16-b30bb8c90443",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:46:44.195Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:46:44.195Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T07:47:05.838Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-22T07:47:05.838Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "96dec6de-e2e1-4bff-ab77-016d46faecdf",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:47:05.879Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:47:05.879Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T07:47:12.652Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-22T07:47:12.652Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "e13feba0-8cea-4173-85f1-c10fd9577501",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:47:12.697Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:47:12.697Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T07:49:40.718Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "1c604c59-ce6d-4c0a-a1d5-7b9099458755",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T07:50:39.983Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T07:50:39.983Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T08:10:48.927Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "187dbabb-e87a-405a-81a7-9e83bed06d52",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:39:09.630Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T08:39:09.630Z"
+      },
+      "revoked_at": null,
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "a3fd6dc2-9175-4c73-8cfe-714edf1bfe64",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:39:46.583Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T08:39:46.583Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T08:41:27.691Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "39552209-7c2d-4196-96be-c24c081e3820",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T08:43:35.137Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T08:43:35.137Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T08:47:13.729Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "1d1f3e8c-8365-4b4e-a19b-8cb72fadd612",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:29:51.305Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:29:51.305Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T09:40:29.880Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "78ffd6ab-0b43-471e-a2aa-2f31c311f27b",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:47:00.376Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:47:00.376Z"
+      },
+      "revoked_at": null,
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "75674c35-142f-4bac-9359-4a56fbbec54d",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:52:43.637Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:52:43.637Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T09:54:40.156Z"
+      },
+      "user_id": "9c6b84cb-d7c9-40b3-b851-09af0fda8975"
+    },
+    {
+      "_id": "bf61871f-0c78-4b3a-ba5b-170d14fbd30c",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:54:40.095Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:54:40.095Z"
+      },
+      "revoked_at": null,
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "4e38eaf1-d1df-4edf-b820-a4aa9d34adab",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:56:33.499Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:56:33.499Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T10:23:12.475Z"
+      },
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "9110b911-b2ef-4bad-acf3-f559bc54fb9a",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:57:25.410Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T09:57:25.410Z"
+      },
+      "revoked_at": null,
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "ccf8bf34-f913-4d5b-a4b1-75fbdaecdc2e",
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T10:10:24.807Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T10:10:24.807Z"
+      },
+      "revoked_at": null,
+      "user_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3"
+    },
+    {
+      "_id": "d78e030d-cf29-460a-83fc-9be6670e2627",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.619Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T10:45:48.619Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:02:22.960Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "077bd1b8-6cfc-4f83-8bf1-41c34a3eac1c",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:03:39.892Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:03:39.892Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:06:52.474Z"
+      },
+      "user_id": "c2be145c-1c93-4aeb-9a07-c56fe4f33728"
+    },
+    {
+      "_id": "134878da-e36b-4f51-905b-6ceb0ad41d5c",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T11:07:20.363Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:07:20.363Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:13:02.611Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "38d4525d-a8d7-4806-8669-2ec96a95761c",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.571Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:46:33.571Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:48:09.426Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "ada0039d-fd9d-45cc-9226-b197bba7ce29",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:48:41.608Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:48:41.608Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:49:09.479Z"
+      },
+      "user_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74"
+    },
+    {
+      "_id": "519e39e3-e281-40f3-9d5c-8d0ef573d225",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:49:32.986Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:49:32.986Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T11:49:46.343Z"
+      },
+      "user_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74"
+    },
+    {
+      "_id": "5ebef63e-0a29-4760-ba3c-2d14fbe4f228",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-22T11:51:12.214Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T11:51:12.214Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T12:14:10.437Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "6596adab-5142-482a-9351-0ca77f1a106c",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T12:19:34.001Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-21T12:19:34.001Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-22T12:33:14.123Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "27cea860-6462-4163-bee0-e6c57f526963",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T06:26:43.356Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T06:26:43.356Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T06:41:15.658Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "4f24c4e6-6b1b-4325-80f1-379fde0c37c6",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T06:30:29.346Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T06:30:29.346Z"
+      },
+      "revoked_at": null,
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "98d602f5-01b5-42b3-ab21-a819cc3ef666",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T06:41:40.266Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T06:41:40.266Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T07:27:55.161Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-23T07:27:55.161Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "8954a825-f915-4a7b-a40a-e29252787308",
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-23T07:27:55.189Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T07:27:55.189Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T07:46:00.260Z"
+      },
+      "user_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502"
+    },
+    {
+      "_id": "36f2ea96-4042-4225-b8f3-c135ef67c5d1",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T07:46:20.002Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T07:46:20.002Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T07:50:55.856Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "00df5fc6-2c91-4347-8aa7-75fe3dfb9bb7",
+      "company_id": "c58d0487-e160-4c9d-ab42-ccff46a8bf7e",
+      "created_at": {
+        "$date": "2026-10-23T08:14:14.852Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T08:14:14.852Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T08:22:21.785Z"
+      },
+      "user_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab"
+    },
+    {
+      "_id": "03e52068-b28a-411e-80c1-57f28ab16813",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.906Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T08:28:56.906Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T08:56:22.691Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    },
+    {
+      "_id": "b5b951e3-462c-474f-be58-4f15f74954f2",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:57:23.899Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T08:57:23.899Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T09:19:19.711Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-23T09:19:19.711Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    },
+    {
+      "_id": "30443b36-d032-40ce-bb73-d986fd70c857",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:19:19.751Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T09:19:19.751Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T09:20:29.415Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-23T09:20:29.415Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    },
+    {
+      "_id": "66ba6e2a-a469-4420-ad73-e6f1d72113a6",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:20:29.445Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T09:20:29.445Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T09:31:07.123Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-23T09:31:07.123Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    },
+    {
+      "_id": "a0ece486-5bc7-4df9-8cbe-17cbdad8a43f",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:31:07.160Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T09:31:07.160Z"
+      },
+      "revoked_at": {
+        "$date": "2026-10-23T09:56:27.485Z"
+      },
+      "rotated_at": {
+        "$date": "2026-10-23T09:56:27.485Z"
+      },
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    },
+    {
+      "_id": "61a1cdf0-b96c-44b5-80b8-aec00f4e4c0d",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T09:56:27.522Z"
+      },
+      "expires_at": {
+        "$date": "2026-11-22T09:56:27.522Z"
+      },
+      "revoked_at": null,
+      "user_id": "4191196f-65ac-4e21-8edd-8b03eef212b9"
+    }
+  ],
+  "serials": [],
+  "sync_counters": [
+    {
+      "_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "sequence": 3,
+      "updated_at": {
+        "$date": "2026-10-23T09:11:57.876Z"
+      }
+    }
+  ],
+  "sync_events": [
+    {
+      "_id": "4b4f6a8c-fa4b-490a-b7da-39b40289d444",
+      "action": "receipt.created",
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "entity_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "entity_type": "receipt",
+      "occurred_at": {
+        "$date": "2026-10-23T08:40:54.401Z"
+      },
+      "payload": {
+        "location_id": "2185d989-ee08-419c-b31b-4da4f406fa4b",
+        "number": "GR-20261023-93692F",
+        "status": "draft",
+        "warehouse_id": "79635188-72bf-4447-9dbf-dbb611aed00a"
+      },
+      "sequence": 1
+    },
+    {
+      "_id": "e6720b55-6a78-444f-a49c-1f0e9af290e2",
+      "action": "receipt.committed",
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "entity_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+      "entity_type": "receipt",
+      "occurred_at": {
+        "$date": "2026-10-23T08:40:54.809Z"
+      },
+      "payload": {
+        "line_count": 1,
+        "number": "GR-20261023-93692F",
+        "putaway_required": true,
+        "status": "applied"
+      },
+      "sequence": 2
+    },
+    {
+      "_id": "1c148f13-5d38-4cae-8052-a06b59af4f90",
+      "action": "putaway.completed",
+      "client_id": "6db639ec-ddce-4ed0-b874-8eda15bb371a",
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "entity_id": "2704ee69-8c42-449f-846b-16272ce5fb6b",
+      "entity_type": "putaway_task",
+      "occurred_at": {
+        "$date": "2026-10-23T09:11:57.787Z"
+      },
+      "payload": {
+        "base_qty": "30",
+        "item_id": "65ba9242-38a1-4be0-b214-614040898f1a",
+        "receipt_id": "38fba64d-0ede-402c-b1fb-798fcf85413c",
+        "receipt_number": "GR-20261023-93692F",
+        "to_location_code": "BIN-01",
+        "to_location_id": "1ccd86a4-099e-42ea-9d0e-0fd233d11c7e"
+      },
+      "sequence": 3
+    }
+  ],
+  "sync_operations": [],
+  "users": [
+    {
+      "_id": "4a8f2e0f-0704-4eda-9022-8bb6320fbe48",
+      "created_at": {
+        "$date": "2026-10-22T07:31:59.651Z"
+      },
+      "email": "connectivity-5d5e455c@example.com",
+      "name": "Connectivity Tester",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$mnJocXL5VRKvvLutzwqqrg$GYbSz82bWLHhxEBIobn2h677jx7PM9PiB1q/uQOuK7o",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:31:59.651Z"
+      }
+    },
+    {
+      "_id": "2f7d4421-84b3-4f4d-b5cb-5d6db94ec605",
+      "created_at": {
+        "$date": "2026-10-22T07:32:26.469Z"
+      },
+      "email": "emulator-0e0c28c2@example.com",
+      "name": "Emulator Tester",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$seNPc/SZiZsmS4idoI5m1w$LkOgapwFXucbfYS0WcuC11Jf5XMMjOgBOMrZa+zmoKU",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:32:26.469Z"
+      }
+    },
+    {
+      "_id": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "created_at": {
+        "$date": "2026-10-22T07:39:58.591Z"
+      },
+      "email": "emulator-59b721d7@example.com",
+      "name": "Emulator Test",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$lXb25QSqccGXSJdaSxnGUg$qv+6weELrPB7yPQeikXrTjot/QJQYn0ZhNp6x+EYvg8",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T07:39:58.591Z"
+      }
+    },
+    {
+      "_id": "9c6b84cb-d7c9-40b3-b851-09af0fda8975",
+      "created_at": {
+        "$date": "2026-10-22T09:52:43.460Z"
+      },
+      "email": "join-check-20261022@example.com",
+      "name": "Join Check",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$8EGZvnD94zn+RtePYFnSMQ$fog8J3cVul3quykfxo8WQTbgDL609HaIWhVqFWtr9hQ",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T09:52:43.460Z"
+      }
+    },
+    {
+      "_id": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "created_at": {
+        "$date": "2026-10-22T10:45:48.432Z"
+      },
+      "email": "team-check-20261022@example.com",
+      "name": "Team Check Owner",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$u0qBh/s4kroQxhv+hBteWg$vaud2rTCnJNEIN+m7qWYkQlpXWCsQibWV1ioFAT8kIs",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T10:45:48.432Z"
+      }
+    },
+    {
+      "_id": "c2be145c-1c93-4aeb-9a07-c56fe4f33728",
+      "created_at": {
+        "$date": "2026-10-22T11:03:39.765Z"
+      },
+      "email": "team-invite-20261022@example.com",
+      "name": "tharun",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$URUIGky1R/X4+Pxgg5c3uw$nwv0PCUmrM6khd4J8t2XAPhBocLbBFLTG/iauqZmDpc",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T11:03:39.765Z"
+      }
+    },
+    {
+      "_id": "42ad7603-aa2f-432b-8e16-e01f7768d4ab",
+      "created_at": {
+        "$date": "2026-10-22T11:46:33.261Z"
+      },
+      "email": "tharunprasad@gmail.com",
+      "name": "tharun",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$2PY+bMr8PjaphmwVfthMGQ$lu3E9DG+PVBtpQiMuAmUjG/j7ZwFdoYmT6mHoJ7BGz0",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T11:46:33.261Z"
+      }
+    },
+    {
+      "_id": "9e94e95f-2ba6-4d78-b7e5-d29fb2e66e74",
+      "created_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      },
+      "email": "raj@gmail.com",
+      "name": "Raj",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$fZSCgXtZUDQp8fuqrim6qg$RZ8fG9JhgKixYHfwPEjFQjJUAWWEWIetYwxxdAQCAvE",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T11:48:41.282Z"
+      }
+    },
+    {
+      "_id": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "created_at": {
+        "$date": "2026-10-23T08:28:56.706Z"
+      },
+      "email": "owner.cbe@example.com",
+      "name": "Arun Kumar",
+      "password_hash": "$argon2id$v=19$m=65536,t=3,p=4$NAVHllFaMotfJiWbyQA0qQ$b+NABvCTMadDiNIeIuYGMzpB/zAH2L9WwZoZqztESbk",
+      "phone": null,
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T08:28:56.706Z"
+      }
+    }
+  ],
+  "warehouses": [
+    {
+      "_id": "dd9486da-2342-483a-975f-9b743c309d6d",
+      "address": null,
+      "company_id": "e4e931aa-d77d-4936-9839-ec7a37e8ce20",
+      "created_at": {
+        "$date": "2026-10-22T09:34:04.536Z"
+      },
+      "created_by": "25e74e00-9cc5-42b5-984c-0d25ca21a0f3",
+      "name": "Main Warehouse",
+      "name_key": "main warehouse",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T09:34:04.536Z"
+      }
+    },
+    {
+      "_id": "349e17f8-aa8e-4d68-936c-0050c5b97bbc",
+      "address": null,
+      "company_id": "40612f2f-9afb-4bdf-9055-1f714712f11a",
+      "created_at": {
+        "$date": "2026-10-22T10:46:39.423Z"
+      },
+      "created_by": "3f26648f-6e0a-4e03-85a7-1d10f8a15502",
+      "name": "Main Warehouse",
+      "name_key": "main warehouse",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-22T10:46:39.423Z"
+      }
+    },
+    {
+      "_id": "79635188-72bf-4447-9dbf-dbb611aed00a",
+      "address": null,
+      "company_id": "10fbaa17-3495-466b-8a09-8fa36341b70e",
+      "created_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      },
+      "created_by": "4191196f-65ac-4e21-8edd-8b03eef212b9",
+      "name": "Coimbatore Warehouse",
+      "name_key": "coimbatore warehouse",
+      "status": "active",
+      "updated_at": {
+        "$date": "2026-10-23T08:29:58.711Z"
+      }
+    }
+  ]
+}
